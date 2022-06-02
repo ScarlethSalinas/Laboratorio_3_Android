@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<Source> imageList = new ArrayList<>();
-        imageList.add(new Source("Image 1", R.drawable.imagen1));
-        imageList.add(new Source("Image 2", R.drawable.imagen2));
-        imageList.add(new Source("Image 3", R.drawable.imagen3));
-        imageList.add(new Source("Image 4", R.drawable.imagen4));
+        imageList.add(new Source("Imagen 1", R.drawable.imagen1));
+        imageList.add(new Source("Imagen 2", R.drawable.imagen2));
+        imageList.add(new Source("Imagen 3", R.drawable.imagen3));
+        imageList.add(new Source("Imagen 4", R.drawable.imagen4));
 
         RecyclerView container = findViewById(R.id.container);
 
